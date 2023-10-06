@@ -1,0 +1,46 @@
+.coinCell div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.coinCell img {
+    width: 32px;
+    height: 32px;
+}
+
+.coinCell h5 {
+    font-size: 1rem;
+}
+
+.coinCell span {
+    text-transform: uppercase;
+    color: #999;
+}
+
+.positiveNumber span {
+    color: green;
+}
+
+.negativeNumber span {
+    color: red;
+}
+
+.coinRow {
+    cursor: pointer;
+    transition: all ease 0.2s;
+}
+
+.coinRow:hover {
+    opacity: 0.6;
+    transition: all ease 0.2s;
+}
+
+.coinRow th.coinCell,
+.coinRow td.coinCell {
+    padding: 5px;
+}
+
+.coinRow .coinCell h5 {
+    margin: 0;
+}

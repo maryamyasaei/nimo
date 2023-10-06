@@ -1,0 +1,25 @@
+.errorWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.errorWrapper h4 {
+    margin-bottom: 0;
+    font-size: 40px;
+    color: #666;
+}
+
+.errorWrapper p {
+    color: #999;
+}
+
+.errorWrapper pre {
+    background-color: #eee;
+    padding: 10px;
+    border-radius: 8px;
+    color: #999;
+    width: 90%;
+    max-width: 500px;
+}
