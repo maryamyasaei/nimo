@@ -23,5 +23,24 @@ Cache cryptocurrency data to eliminate time limit issues when fetching data from
 Improved performance and user experience on subsequent visits
 
 ## Installation
-1-Clone the repository: 
+ 1- Clone the Repositiory: git clone 
+ 2- Navigate to the project directory: cd ....
+ 3- Install dependencies: yarn install
+ 4- Create a .env file in the project root and add your CoinGecko API key 
+ 5- Start the development server: yarn start
+ 6- Start running tests: yarn test
+ 7- Open your web browser and access the app at http://localhost:3000.
+
+## Usage
+Upon opening the app, you'll be presented with a list of cryptocurrencies in a table format.
+Click on a cryptocurrency to access its detailed information on a separate page.
+Enjoy a seamless experience thanks to the data caching feature provided by React Query.
+
+## Deployment
+This appl is deployed to Vercel : https://nimo-crypto-signals.vercel.app/
+
+## Acknowledgments
+CoinGecko for providing the cryptocurrency data API.
+The React Query team for creating an efficient caching solution.
+
 
