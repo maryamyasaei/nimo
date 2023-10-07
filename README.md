@@ -7,21 +7,21 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## OverView
+CryptoTracker is a web application that allows users to view a comprehensive list of cryptocurrencies along with relevant data. Users can also access detailed information about each cryptocurrency. This project utilizes the CoinGecko API to fetch cryptocurrency data. To address the API's time limit issue, React Query is implemented to provide caching and improve user experience.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+ ## Features
+Cryptocurrency Table:
+Display a list of cryptocurrencies.
+Show relevant data such as name, symbol, current price, market cap, and 24-hour price changes.
+Pagination for easy navigation through the cryptocurrency list.
+Cryptocurrency Detail Page:
+View detailed information about a selected cryptocurrency.
+Information includes market data, historical price charts, and more.
+Caching with React Query:
+Cache cryptocurrency data to eliminate time limit issues when fetching data from the CoinGecko API.
+Improved performance and user experience on subsequent visits
 
-- Configure the top-level `parserOptions` property like this:
+## Installation
+1-Clone the repository: 
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
