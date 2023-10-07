@@ -23,7 +23,7 @@ Cache cryptocurrency data to eliminate time limit issues when fetching data from
 Improved performance and user experience on subsequent visits
 
 ## Installation
- 1- Clone the Repositiory: git clone 
+ 1- Clone the Repositiory: git clone https://github.com/maryamyasaei/nimo-crypto-signals.git
  2- Navigate to the project directory: cd ....
  3- Install dependencies: yarn install
  4- Create a .env file in the project root and add your CoinGecko API key 
