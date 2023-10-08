@@ -1,13 +1,15 @@
 # CryptoSignals App
 
-## React + TypeScript + Vite
+## Technologies Used
+TypeScript
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+React
 
-Currently, two official plugins are available:
+ReactQuert
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Vite
+
+
 
 ## OverView
 CryptoSignal is a web application that allows users to view a comprehensive list of cryptocurrencies along with relevant data. Users can also access detailed information about each cryptocurrency. This project utilizes the CoinGecko API to fetch cryptocurrency data. To address the API's time limit issue, React Query is implemented to provide caching and improve user experience.
