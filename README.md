@@ -24,11 +24,17 @@ Improved performance and user experience on subsequent visits
 
 ## Installation
  1- Clone the Repositiory: git clone https://github.com/maryamyasaei/nimo-crypto-signals.git
+ 
  2- Navigate to the project directory: cd local address of the directory which you saved the project files
+ 
  3- Install dependencies: yarn install
+ 
  4- Create a .env file in the project root and add your CoinGecko API key 
+ 
  5- Start the development server: yarn start
+ 
  6- Start running tests: yarn test
+ 
  7- Open your web browser and access the app at http://localhost:3000.
 
 ## Usage
