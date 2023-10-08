@@ -1,3 +1,5 @@
+## CryptoSignals App
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -26,6 +28,7 @@ View detailed information about a selected cryptocurrency.
 Information includes market data, historical price charts, and more.
 
 Caching with React Query:
+
 Cache cryptocurrency data to eliminate time limit issues when fetching data from the CoinGecko API.
 Improved performance and user experience on subsequent visits
 
