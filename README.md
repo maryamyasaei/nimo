@@ -19,12 +19,13 @@ Cryptocurrency Table:
 Display a list of cryptocurrencies.
 Show relevant data such as name, symbol, current price, market cap, and 24-hour price changes.
 Pagination for easy navigation through the cryptocurrency list.
+
 Cryptocurrency Detail Page:
 
 View detailed information about a selected cryptocurrency.
 Information includes market data, historical price charts, and more.
-Caching with React Query:
 
+Caching with React Query:
 Cache cryptocurrency data to eliminate time limit issues when fetching data from the CoinGecko API.
 Improved performance and user experience on subsequent visits
 
