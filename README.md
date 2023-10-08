@@ -1,13 +1,13 @@
 # CryptoSignals App
 
 ## Technologies Used
-TypeScript
+1- TypeScript
 
-React
+2- React
 
-ReactQuert
+3- ReactQuery
 
-Vite
+4- Vite
 
 
 
